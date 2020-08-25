@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
   author="smootheFiets, Dirk Stöcker"
-  version="0.2_2020-08-25"
+  version="0.3_2020-08-25"
   icon="https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg"
   shortdescription="One click settings NL"
   de.shortdescription="Ein-Klick-Einstellungen NL"
@@ -63,7 +63,14 @@
       <key key="amenity" value="post_box" />
       <key key="operator" value="PostNL" />
     </item>
-    <!-- Stuff from original OneClick preset (adapted) above, new stuff below -->
+    <!-- Stuff from original OneClick preset (adapted) above, new
+	 stuff below -->
+    <item name="Footway G7" nl.name="Voetpad G7"
+	  icon="https://upload.wikimedia.org/wikipedia/commons/0/0a/Nederlands_verkeersbord_G7.svg"
+	  type="way,closedway">
+      <key key="highway" value="footway"/>
+      <key key="traffic_sign" value="NL:G7"/>
+    </item>
     <item name="Sidepath G11" nl.name="Sidepath naast G11"
 	  icon="https://upload.wikimedia.org/wikipedia/commons/c/cd/Nederlands_verkeersbord_G11.svg"
 	  type="way,closedway">
