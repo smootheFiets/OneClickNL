@@ -19,4 +19,5 @@ Link to the forked preset: https://josm.openstreetmap.de/wiki/Presets/OneClick (
 * 0.1, July 2020: first test version, not on Github
 * 0.2_2020-08-25: upload on Github, add microcar=no to C9
 * 0.3_2020-08-25: rewrote README, added preset "footway G7"
+* 0.4_2020-08-25: added several traffic_calming shortcuts: table, choker, double-dip, hump, bump
 

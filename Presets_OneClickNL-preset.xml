@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
   author="smootheFiets, Dirk Stöcker"
-  version="0.3_2020-08-25"
+  version="0.4_2020-08-25"
   icon="https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg"
   shortdescription="One click settings NL"
   de.shortdescription="Ein-Klick-Einstellungen NL"
@@ -63,8 +63,7 @@
       <key key="amenity" value="post_box" />
       <key key="operator" value="PostNL" />
     </item>
-    <!-- Stuff from original OneClick preset (adapted) above, new
-	 stuff below -->
+    <!-- Stuff from original OneClick preset (adapted) above, new stuff below -->
     <item name="Footway G7" nl.name="Voetpad G7"
 	  icon="https://upload.wikimedia.org/wikipedia/commons/0/0a/Nederlands_verkeersbord_G7.svg"
 	  type="way,closedway">
@@ -180,5 +179,28 @@
       <key key="moped" value="no" />
       <key key="traffic_sign" value="NL:C15" />
     </item>
+
+    <!-- Drempels die ik vaak tegenkom -->
+    <item name="Drempel: Table"
+	  type="node,way">
+      <key key="traffic_calming" value="table" />
+    </item>
+    <item name="Drempel: Choker"
+	  type="node,way">
+      <key key="traffic_calming" value="choker" />
+    </item>
+    <item name="Drempel: Double-Dip"
+	  type="node,way">
+      <key key="traffic_calming" value="double_dip" />
+    </item>
+    <item name="Drempel: Hump"
+	  type="node,way">
+      <key key="traffic_calming" value="hump" />
+    </item>
+    <item name="Drempel: Bump"
+	  type="node,way">
+      <key key="traffic_calming" value="bump" />
+    </item>  
+    
   </group>
 </presets>
