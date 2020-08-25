@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
+  author="smootheFiets, Dirk Stöcker"
+  version="0.2_2020-08-25"
+  icon="https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg"
+  shortdescription="One click settings NL"
+  de.shortdescription="Ein-Klick-Einstellungen NL"
+  nl.shortdescription="Één-klik-instellingen NL"
+  description="Shortcut presets to use with a single click, adapted to Dutch road tagging"
+  de.description="Schnelle Vorlagen zur Nutzung mit einem Klick, angepasst für NL"
+  nl.description="Snelle presets, met één klik te gebruiken, voor gebruik in Nederland">
+
+  <group name="One click NL" de.name="Ein Klick NL" nl.name="Één klik NL"
+	icon="https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg">
+    <!-- forked from Dirk Stöcker's OneClick preset, adapted to NL -->
+    <!-- See also allroads's NL-Fiets preset for further presets, especially cycleway and oneway -->
+    <item name="Maxspeed 30" de.name="Tempo 30"
+	  icon="https://www.wegenwiki.nl/images/Verkeersbord_A1-30.svg"
+	  type="way,closedway">
+      <key key="maxspeed" value="30" />
+    </item>
+    <item name="Maxspeed 50" de.name="Tempo 50"
+	  icon="https://www.wegenwiki.nl/images/Verkeersbord_A1-50.svg"
+	  type="way,closedway">
+      <key key="maxspeed" value="50" />
+    </item>
+    <item name="Maxspeed 60" de.name="Tempo 60"
+	  icon="https://www.wegenwiki.nl/images/Verkeersbord_A1-60.svg"
+	  type="way,closedway">
+      <key key="maxspeed" value="60" />
+    </item>
+    <item name="Maxspeed 70" de.name="Tempo 70"
+	  icon="https://www.wegenwiki.nl/images/Verkeersbord_A1-70.svg"
+	  type="way,closedway">
+      <key key="maxspeed" value="70" />
+    </item>
+    <item name="Maxspeed 80" de.name="Tempo 80"
+	  icon="https://www.wegenwiki.nl/images/Verkeersbord_A1-80.svg"
+	  type="way,closedway">
+      <key key="maxspeed" value="80" />
+    </item>
+    <!-- No need for higher-speed preset: where allowed on Dutch roads, it's already tagged  -->
+
+    <item name="Bridge" nl.name="Brug" de.name="Bruecke" icon="presets/transport/bridge/bridge.svg" type="way">
+      <key key="bridge" value="yes" />
+      <key key="layer" value="1" />
+    </item>
+    <item name="Tunnel" icon="presets/transport/passage/tunnel.svg" type="way">
+      <key key="tunnel" value="yes" />
+      <key key="layer" value="-1" />
+    </item>
+    <item name="Culvert" ru.name="Водопропускная труба" icon="presets/transport/passage/tunnel_culvert.svg" type="node,way">
+      <key key="tunnel" value="culvert" />
+      <key key="layer" value="-1" />
+    </item>
+    <item name="Traffic Signal" icon="presets/vehicle/traffic_signals.svg" type="node">
+      <key key="highway" value="traffic_signals" />
+    </item>
+    <item name="Pedestrian Crossing" icon="presets/vehicle/crossing.svg" type="node">
+      <key key="highway" value="crossing" />
+    </item>
+    <item name="Post Box" icon="presets/service/post_box.svg" type="node">
+      <key key="amenity" value="post_box" />
+      <key key="operator" value="PostNL" />
+    </item>
+    <!-- Stuff from original OneClick preset (adapted) above, new stuff below -->
+    <item name="Sidepath G11" nl.name="Sidepath naast G11"
+	  icon="https://upload.wikimedia.org/wikipedia/commons/c/cd/Nederlands_verkeersbord_G11.svg"
+	  type="way,closedway">
+      <key key="foot" value="use_sidepath" />
+      <key key="bicycle" value="use_sidepath" />
+      <key key="mofa" value="use_sidepath" />
+      <key key="moped" value="" />
+      <!-- Any moped tag will be deleted! -->
+    </item>
+    <item name="Sidepath G12a" nl.name="Sidepath naast G12a"
+	  icon="https://upload.wikimedia.org/wikipedia/commons/d/da/Nederlands_verkeersbord_G12a.svg"
+	  type="way,closedway">
+      <key key="foot" value="use_sidepath" />
+      <key key="bicycle" value="use_sidepath" />
+      <key key="mofa" value="use_sidepath" />
+      <key key="moped" value="use_sidepath" />
+    </item>
+    <item name="Sidepath G13" nl.name="Sidepath naast G13"
+	  icon="https://upload.wikimedia.org/wikipedia/commons/b/ba/Nederlands_verkeersbord_G13.svg"
+	  type="way,closedway">
+      <key key="foot" value="use_sidepath" />
+      <key key="bicycle" value="yes" />
+      <key key="mofa" value="" />
+      <key key="moped" value="" />
+      <!-- Any mofa,moped tag will be deleted! -->
+    </item>
+
+    <!-- Geslotenverklaringen, zie https://wiki.openstreetmap.org/wiki/NL:The_Netherlands_roads_tagging -->
+    <item name="C1 (no vehicle)"
+	  icon="https://upload.wikimedia.org/wikipedia/commons/3/31/Nederlands_verkeersbord_C1.svg"
+	  type="way,closedway">
+      <key key="vehicle" value="no" />
+      <key key="horse" value="no" />
+      <key key="traffic_sign" value="NL:C1" />
+    </item>    
+    <item name="C6 (no car)"
+	  icon="https://upload.wikimedia.org/wikipedia/commons/9/96/Nederlands_verkeersbord_C6.svg"
+	  type="way,closedway">
+      <key key="motor_vehicle" value="no" />
+      <key key="moped" value="yes" />
+      <key key="mofa" value="yes" />
+      <key key="motorcycle" value="yes" />
+      <key key="traffic_sign" value="NL:C6" />
+    </item>    
+    <item name="C7 (no truck)"
+	  icon="https://upload.wikimedia.org/wikipedia/commons/f/f9/Nederlands_verkeersbord_C7.svg"
+	  type="way,closedway">
+      <key key="hgv" value="no" />
+      <key key="traffic_sign" value="NL:C7" />
+    </item>
+    <item name="C8 (no tractor)"
+	  icon="https://upload.wikimedia.org/wikipedia/commons/0/09/Nederlands_verkeersbord_C8.svg"
+	  type="way,closedway">
+      <key key="agricultural" value="no" />
+      <key key="traffic_sign" value="NL:C8" />
+    </item>
+    <item name="C9 (no bicycle-agricultural)"
+	  icon="https://upload.wikimedia.org/wikipedia/commons/3/30/Nederlands_verkeersbord_C9.svg"
+	  type="way,closedway">
+      <key key="agricultural" value="no" />
+      <key key="moped" value="no" />
+      <key key="mofa" value="no" />
+      <key key="horse" value="no" />
+      <key key="bicycle" value="no" />
+      <key key="microcar" value="no" />
+      <key key="traffic_sign" value="NL:C9" />
+    </item>
+    <item name="C10 (no trailer)"
+	  icon="https://upload.wikimedia.org/wikipedia/commons/e/ed/Nederlands_verkeersbord_C10.svg"
+	  type="way,closedway">
+      <key key="trailer" value="no" />
+      <key key="traffic_sign" value="NL:C10" />
+    </item>    
+    <item name="C11 (no motorcycle)"
+	  icon="https://upload.wikimedia.org/wikipedia/commons/6/6b/Nederlands_verkeersbord_C11.svg"
+	  type="way,closedway">
+      <key key="motorcycle" value="no" />
+      <key key="traffic_sign" value="NL:C11" />
+    </item>    
+    <item name="C12 (no motor vehicles)"
+	  icon="https://upload.wikimedia.org/wikipedia/commons/5/5f/Nederlands_verkeersbord_C12.svg"
+	  type="way,closedway">
+      <key key="motor_vehicle" value="no" />
+      <key key="moped" value="yes" />
+      <key key="mofa" value="yes" />
+      <key key="traffic_sign" value="NL:C12" />
+    </item>    
+    <item name="C13 (no moped)"
+	  icon="https://upload.wikimedia.org/wikipedia/commons/1/14/Nederlands_verkeersbord_C13.svg"
+	  type="way,closedway">
+      <key key="moped" value="no" />
+      <key key="mofa" value="no" />
+      <key key="traffic_sign" value="NL:C13" />
+    </item>
+    <item name="C14 (no bicycle)"
+	  icon="https://upload.wikimedia.org/wikipedia/commons/d/df/Nederlands_verkeersbord_C14.svg"
+	  type="way,closedway">
+      <key key="bicycle" value="no" />
+      <key key="mofa" value="no" />
+      <key key="traffic_sign" value="NL:C14" />
+    </item>
+    <item name="C15 (no bicycle-moped)"
+	  icon="https://upload.wikimedia.org/wikipedia/commons/e/e5/Nederlands_verkeersbord_C15.svg"
+	  type="way,closedway">
+      <key key="bicycle" value="no" />
+      <key key="mofa" value="no" />
+      <key key="moped" value="no" />
+      <key key="traffic_sign" value="NL:C15" />
+    </item>
+  </group>
+</presets>
