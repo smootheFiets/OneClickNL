@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
   author="smootheFiets, Dirk Stöcker"
-  version="0.5_2020-08-27"
+  version="0.6_2020-09-03"
   icon="https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg"
   shortdescription="One click settings NL"
   de.shortdescription="Ein-Klick-Einstellungen NL"
@@ -91,10 +91,11 @@
 	  icon="https://upload.wikimedia.org/wikipedia/commons/b/ba/Nederlands_verkeersbord_G13.svg"
 	  type="way,closedway">
       <key key="foot" value="use_sidepath" />
-      <key key="bicycle" value="yes" />
+      <key key="bicycle" value="" />
       <key key="mofa" value="" />
       <key key="moped" value="" />
-      <!-- Any mofa,moped tag will be deleted! -->
+      <key key="cycleway" value="separate"/>
+      <!-- Any bicycle,mofa,moped tag will be deleted! -->
     </item>
 
     <!-- Geslotenverklaringen, zie https://wiki.openstreetmap.org/wiki/NL:The_Netherlands_roads_tagging -->
