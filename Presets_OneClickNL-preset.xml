@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
   author="smootheFiets, Dirk Stöcker"
-  version="0.6_2020-09-03"
+  version="0.7_2020-09-11"
   icon="https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg"
   shortdescription="One click settings NL"
   de.shortdescription="Ein-Klick-Einstellungen NL"
@@ -202,6 +202,14 @@
 	  type="node,way">
       <key key="traffic_calming" value="bump" />
     </item>  
+    <item name="Drempel: Chicane"
+	  type="node,way">
+      <key key="traffic_calming" value="chicane" />
+    </item>
+    <item name="Drempel: Island"
+	  type="node,way">
+      <key key="traffic_calming" value="island" />
+    </item>    
     <item name="One-click cattle grid" nl.name="Veerooster"
 	  type="node">
       <key key="barrier" value="cattle_grid" />
