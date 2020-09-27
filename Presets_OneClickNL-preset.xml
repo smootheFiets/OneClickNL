@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
   author="smootheFiets, Dirk Stöcker"
-  version="0.7_2020-09-11"
+  version="0.8_2020-09-27"
   icon="https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg"
   shortdescription="One click settings NL"
   de.shortdescription="Ein-Klick-Einstellungen NL"
@@ -219,6 +219,12 @@
       <key key="barrier" value="bollard" />
     </item>
     
+    <!-- Misc -->
+    <item name="Water tap" type="node">
+      <key key="man_made" value="water_tap" />
+      <key key="drinking_water" value="yes" />
+      <key key="amenity" value="drinking_water" />
+    </item>
       
   </group>
 </presets>

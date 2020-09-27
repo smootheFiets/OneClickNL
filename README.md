@@ -25,3 +25,4 @@ Link to the forked preset: https://josm.openstreetmap.de/wiki/Presets/OneClick (
 * 0.5_2020-08-27: add one-click cattle-grid and bollard (without attributes)
 * 0.6_2020-09-03: adapt side-path G13: delete bicycle tag (was: bicycle=yes), set cycleway=separate
 * 0.7_2020-09-11: add one-click traffic_calming=chicane/island
+* 0.8_2020-09-27: add "Water tap"
