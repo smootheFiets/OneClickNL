@@ -9,9 +9,10 @@ For the tagging of Dutch cycleways and NL-specific oneway tags, refer to "NL-fie
 
 The traffic signs NL:C1-NL:C15 make handy additions to the JOSM toolbar; the corresponding tags follow https://wiki.openstreetmap.org/wiki/NL:The_Netherlands_roads_tagging#Borden:_geslotenverklaringen (with microcar=no added to sign C9).
 
-The use_sidepath options G11 and G13 are potentially dangerous in that they delete any existing moped and (in the case of G13) bicycle+mofa tags.  This is desired behaviour when, e.g., a parallel cyclepath has changed from G12a to G11 but will delete useful information in certain cases (e.g., in the presence of a C13 board, or when mofa=moped=permissive).  Please make sure to check, and manually restore any tags that shouldn't have been deleted!
+The use_sidepath options G11, G12a, and G13 add "foot=use_sidepath" because, by Dutch law, pedestrians aren't allowed on the main road if there's a parallel cyclepath (even G13 paths that aren't compulsory for cyclists are still compulsory for pedestrians).  There may be, however, a separate pedestrian sidewalk and it may be mapped as a tag of the main road (e.g., because it's on the other side of the road).  In that case, foot=use_sidepath should be deleted; consider adding a sidewalk tag on the main road.
+Furthermore, use_sidepath G11 and G13 delete any existing moped and (in the case of G13) bicycle+mofa tags.  This is desired behaviour when, e.g., a parallel cyclepath has changed from G12a to G11 but will delete useful information in certain cases (e.g., in the presence of a C13 board, or when mofa=moped=permissive).  Please make sure to check, and manually restore any tags that shouldn't have been deleted!
 
-As of Sep 2020, this preset has yet to undergo public testing, although the author has used it heavily since July.  Also, while I've attempted to stick to non-controversial tags, some discussion within the NL OSM community is clearly in order before any further distribution of this file can be contemplated.  Use at your own risk and peril!
+As of Nov 2020, this preset has yet to undergo public testing, although the author has used it heavily since July.  Also, while I've attempted to stick to non-controversial tags, some discussion within the NL OSM community is clearly in order before any further distribution of this file can be contemplated.  Use at your own risk and peril!
  
 
 Link to the forked preset: https://josm.openstreetmap.de/wiki/Presets/OneClick (forked from version 2.29_2020-04-19)
@@ -26,3 +27,4 @@ Link to the forked preset: https://josm.openstreetmap.de/wiki/Presets/OneClick (
 * 0.6_2020-09-03: adapt side-path G13: delete bicycle tag (was: bicycle=yes), set cycleway=separate
 * 0.7_2020-09-11: add one-click traffic_calming=chicane/island
 * 0.8_2020-09-27: add "Water tap"
+* 0.9_2020-11-14: add "OV fiets self-service"
