@@ -225,6 +225,14 @@
       <key key="drinking_water" value="yes" />
       <key key="amenity" value="drinking_water" />
     </item>
+
+    <item name="OV fiets self-service" type="node,closedway">
+      <key key="amenity" value="bicycle_rental" />
+      <key key="name" value="OV fiets" />
+      <key key="network" value="OV fiets" />
+      <key key="operator" value="NS" />
+      <key key="self_service" value="only" />
+    </item>
       
   </group>
 </presets>
