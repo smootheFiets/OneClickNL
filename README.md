@@ -28,4 +28,4 @@ Link to the forked preset: https://josm.openstreetmap.de/wiki/Presets/OneClick (
 * 0.7_2020-09-11: add one-click traffic_calming=chicane/island
 * 0.8_2020-09-27: add "Water tap"
 * 0.9_2020-11-14: add "OV fiets self-service"
-* 0.10_2021-04-21: add brand info to OV fiets and rename OV-fiets (hyphen); add 'mest' for storage tanks (experimental addition; for BAG importers)
+* 0.10_2021-04-21: add brand info to OV fiets and rename OV-fiets (hyphen)

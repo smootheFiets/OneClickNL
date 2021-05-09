@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
   author="smootheFiets, Dirk Stöcker"
-  version="0.8_2020-09-27"
+  version="0.10_2021-04-21"
   icon="https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg"
   shortdescription="One click settings NL"
   de.shortdescription="Ein-Klick-Einstellungen NL"
@@ -236,13 +236,5 @@
       <key key="brand:wikidata" value="Q2629982" />
     </item>
 
-    <item name="Mest (manually change ref:bag to ref:bag:old!)"
-	  type="closedway">
-      <key key="building" value="storage_tank" />
-      <key key="man_made" value="storage_tank" />
-      <key key="source:date" value="2020" />
-      <key key="source" value="BAG;PDOK" />
-    </item>
-      
   </group>
 </presets>
