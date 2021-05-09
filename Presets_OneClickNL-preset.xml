@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
   author="smootheFiets, Dirk Stöcker"
-  version="0.8_2020-09-27"
+  version="0.10_2021-04-21"
   icon="https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg"
   shortdescription="One click settings NL"
   de.shortdescription="Ein-Klick-Einstellungen NL"
@@ -226,13 +226,15 @@
       <key key="amenity" value="drinking_water" />
     </item>
 
-    <item name="OV fiets self-service" type="node,closedway">
+    <item name="OV-fiets self-service" type="node,closedway">
       <key key="amenity" value="bicycle_rental" />
-      <key key="name" value="OV fiets" />
-      <key key="network" value="OV fiets" />
+      <key key="name" value="OV-fiets" />
+      <key key="brand" value="OV-fiets" />
       <key key="operator" value="NS" />
       <key key="self_service" value="only" />
+      <key key="brand:wikipedia" value="nl:OV-fiets" />
+      <key key="brand:wikidata" value="Q2629982" />
     </item>
-      
+
   </group>
 </presets>
