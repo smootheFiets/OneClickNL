@@ -62,6 +62,8 @@
     <item name="Post Box" icon="presets/service/post_box.svg" type="node">
       <key key="amenity" value="post_box" />
       <key key="operator" value="PostNL" />
+      <key key="operator:wikidata" value="Q5921598" />
+      <key key="operator:wikipedia" value="nl:PostNL" />
     </item>
     <!-- Stuff from original OneClick preset (adapted) above, new stuff below -->
     <item name="Footway G7" nl.name="Voetpad G7"

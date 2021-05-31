@@ -29,3 +29,4 @@ Link to the forked preset: https://josm.openstreetmap.de/wiki/Presets/OneClick (
 * 0.8_2020-09-27: add "Water tap"
 * 0.9_2020-11-14: add "OV fiets self-service"
 * 0.10_2021-04-21: add brand info to OV fiets and rename OV-fiets (hyphen)
+* 0.11_2021-05-31: add operator metadata to postboxes; https://forum.openstreetmap.org/viewtopic.php?id=72576
