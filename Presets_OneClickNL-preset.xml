@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
   author="smootheFiets, Dirk Stöcker"
-  version="0.10_2021-04-21"
+  version="0.12_2021-09-02"
   icon="https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg"
   shortdescription="One click settings NL"
   de.shortdescription="Ein-Klick-Einstellungen NL"
@@ -64,6 +64,7 @@
       <key key="operator" value="PostNL" />
       <key key="operator:wikidata" value="Q5921598" />
       <key key="operator:wikipedia" value="nl:PostNL" />
+      <key key="colour" value="orange" />
     </item>
     <!-- Stuff from original OneClick preset (adapted) above, new stuff below -->
     <item name="Footway G7" nl.name="Voetpad G7"
